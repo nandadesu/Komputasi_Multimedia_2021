@@ -4,16 +4,16 @@ using UnityEngine.UI;
 public class PlayerInventoryDisplay : MonoBehaviour
 {
     public Image[] starPlaceholders;
-    public Sprite iconStarYellow;
-    public Sprite iconStarGrey;
+    public Sprite iconDiamondsYellow;
+    public Sprite iconDiamondsGrey;
     public void OnChangeStarTotal(int starTotal)
     {
         for (int i = 0; i < starPlaceholders.Length; ++i)
         {
             if (i < starTotal)
-                starPlaceholders[i].sprite = iconStarYellow;
+                starPlaceholders[i].sprite = iconDiamondsYellow;
             else
-                starPlaceholders[i].sprite = iconStarGrey;
+                starPlaceholders[i].sprite = iconDiamondsGrey;
         }
     }
 }

@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/JJ_Casual RPG Character - 8Ekard v1.1/Scenes/Ekard_Generic.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
